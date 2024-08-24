@@ -565,7 +565,7 @@ class InputFilterTest extends TestCase
                 'trim',
                 ['Saccà', 'Saccà'],
                 ['Saccà', 'Saccà'],
-                'CMS issue 6803'
+                'CMS issue 6803',
             ],
             'string_01' => [
                 'string',
