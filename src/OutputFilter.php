@@ -100,7 +100,7 @@ class OutputFilter
     public static function stringJSSafe($string)
     {
         $chars   = preg_split('//u', $string, -1, PREG_SPLIT_NO_EMPTY);
-        $newStr = '';
+        $newStr  = '';
 
         foreach ($chars as $chr) {
             $code = str_pad(dechex(StringHelper::ord($chr)), 4, '0', STR_PAD_LEFT);
